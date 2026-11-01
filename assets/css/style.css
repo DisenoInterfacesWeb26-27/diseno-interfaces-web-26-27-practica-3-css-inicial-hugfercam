@@ -1,0 +1,284 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 1em;
+    font-family: 'Poppins', Arial, sans-serif;
+    background-color: #F7FAFA;
+    color: #263238;
+    line-height: 1.5;
+    padding-top: 4.5em;
+}
+h1 {
+    font-size: 2em;
+    font-weight: 700;
+}
+h2 {
+    font-size: 1.5em;
+    font-weight: 600;
+    color: #176B87;
+}
+h3{
+    font-size: 1.125em;
+    font-weight: 500;
+    color: #176B87;
+}
+p {
+    font-size: 1em;
+    font-weight: 400;
+}
+
+header {
+    background-color: #176B87;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+header h1 {
+    letter-spacing: 0.03em;
+}
+
+nav {
+    background-color: #6EC5D4;
+    text-align: center;
+    padding: 0.5em;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    box-sizing: border-box;
+}
+nav a {
+    display: inline-block;
+    padding: 0.6em 1.2em;
+    margin: 0 0.3em;
+    background-color: #176B87;
+    color: #FFFFFF;
+    text-decoration: none;
+    border-radius: 0.4em;
+}
+
+nav a:link {
+    color: #FFFFFF;
+}
+
+nav a:visited {
+    color: #FFFFFF;
+}
+
+nav a:hover {
+    background-color: #8BCBC0;
+    color: #176B87;
+}
+
+nav a:active {
+    background-color: #FFFFFF;
+    color: #176B87;
+}
+
+a {
+    color: #176B87;
+    
+}
+
+main section {
+    background-color: #FFFFFF;
+    color: #263238;
+}
+
+main a:link {
+    color: #176B87;
+}
+
+main a:visited {
+    color: #405B83;
+}
+
+main a:hover {
+    color: #087E92;
+    text-decoration: underline;
+}
+
+main a:active {
+    color: #263238;
+}
+
+aside {
+    background-color: #8BCBC0;
+    color: #263238;
+    padding: 1em;
+}
+
+aside a:link {
+    color: #176B87;
+}
+
+aside a:visited {
+    color: #683D86;
+}
+
+aside a:hover {
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+
+aside a:active {
+    color: #263238;
+}
+
+aside ul {
+    list-style: none;
+    margin-bottom: 0.5em;
+}
+
+aside li {
+    color: #176B87;
+    margin-bottom: 0.5em;
+}
+
+aside h2 {
+    color: #176B87;
+    text-transform: uppercase;
+}
+
+footer {
+    background-color: #176B87;
+    color: #FFFFFF;
+}
+
+footer a:link,
+footer a:visited {
+    color: #FFFFFF;
+}
+
+footer a:hover {
+    color: #8BCBC0;
+}
+
+footer a:active {
+    color: #6EC5D4;
+}
+
+footer h2 {
+    color: #FFFFFF;
+}
+
+button {
+    background-color: #176B87;
+    color: #FFFFFF;
+}
+
+table {
+    font-family: inherit;
+    background-color: #FFFFFF;
+    color: #263238;
+    font-size: 1em;
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: auto;
+    margin-top: 1em;
+}
+
+th {
+    background-color: #176B87;
+    color: #FFFFFF;
+}
+
+
+th, td {
+    border: 1px solid #6EC5D4;
+    padding: 0.75em;
+    text-align: center;
+}
+
+input, textarea, select {
+    font-family: inherit;
+    background-color: #FFFFFF;
+    color: #263238;
+}
+
+caption {
+    caption-side: bottom;
+    color: #176B87;
+    font-weight: 600;
+    padding: 0.5em;
+}
+
+.whatsapp-flotante {
+    position: fixed;
+    bottom: 1.5em;
+    right: 1.5em;
+    z-index: 200;
+}
+
+.whatsapp-flotante img {
+    width: 3.5em;
+    height: auto;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #EAF7F5;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #FFFFFF;
+}
+
+tbody tr:first-child {
+    background-color: #D8F0ED;
+}
+
+form {
+    background-color: #FFFFFF;
+    width: 90%;
+    max-width: 35em;
+    margin: 2em auto;
+    padding: 2em;
+    border: 1px solid #6EC5D4;
+    border-radius: 0.75em;
+    box-sizing: border-box;
+}
+
+form label {
+    display: block;
+    margin-bottom: 0.4em;
+    font-weight: 500;
+    color: #263238;
+}
+form input:not([type="checkbox"]),
+form textarea {
+    display: block;
+    width: 100%;
+    padding: 0.7em;
+    margin-bottom: 1em;
+    border: 1px solid #6EC5D4;
+    border-radius: 0.4em;
+    box-sizing: border-box;
+}
+
+form input[type="checkbox"] {
+    margin-right: 0.5em;
+}
+
+form label[for="privacidad"] {
+    display: inline;
+    font-weight: 400;
+}
+
+form button {
+    background-color: #176B87;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 0.4em;
+    padding: 0.75em 1.5em;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 1em;
+}
+
+form button:hover {
+    background-color: #0F5067;
+}
